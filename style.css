@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+
+.logo{
+    background-image: url("Amazon_logo.png");
+    background-size:cover;
+    height:40px;
+    width: 100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+.add-first{
+    color:#cccccc;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+.add-sec{
+    font-size:1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+
+/* box3 style */
+.nav-search{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:pink;
+    width:620px;
+    height:40px;
+    border-radius:3px;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color:rgb(204, 111, 30);
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    border:none;
+}
+/* box4 */
+.nav-country{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:1rem;
+    margin-left:4px;
+    height:20px;
+    border:none;
+    
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+/* box5 */
+span{
+    font-size:0.85rem;
+}
+.nav-second{
+    font-weight:700;
+}
+/* box6 */
+
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size:0.85rem;
+    font-weight:700;
+    border:none;
+}
+
+/* Second-panel */
+.panel {
+    height:40px;
+    background-color:black;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    margin-left:15px;
+}
+
+.panel-ops{
+    width:70%;
+    font-size:0.85rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+}
+/* hero section */
+.hero-section {
+    background-image:url("hero_image1.jpg");
+    background-size:scale-up;
+    /* text-color:red; */
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    border:2px solid black;
+}
+.hero-msg{
+    background-color:red;
+    color:black;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:0.85rem;
+    width:60%;
+    margin-bottom:20px;
+}
